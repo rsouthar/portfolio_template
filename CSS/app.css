@@ -9,3 +9,17 @@ body {
   left: 0;
   text-align: center;
 }
+
+.nav_custom {
+  background: transparent;
+}
+
+#hero {
+  height: 850px;
+}
+
+.intro {
+  font-size: 50px;
+  color: #fff;
+  margin-top: 25%;
+}
