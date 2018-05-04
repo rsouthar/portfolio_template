@@ -13,6 +13,11 @@ body {
 .nav_custom {
   background: transparent;
   font-size: 2rem;
+  padding-top: 1.2rem;
+}
+
+.icon-bar {
+  color: #fff;
 }
 
 .navbar-toggle.minus.collapsed .icon-bar:nth-of-type(1) {
@@ -40,7 +45,7 @@ body {
   color: #fff;
 }
 
-.navbar-nav a {
+.nav-link {
   color: #fff;
   padding: 0 2rem 0 1rem;
 }
