@@ -22,21 +22,22 @@ footer a {
 }
 
 #hero {
-  height: 100vh;
+  height: 80vh;
   background-color: #F2F6E5;
 }
 
 #about {
-  height: 100vh;
+  height: 80vh;
   background-color: #646665;
 }
 
 #skills {
-  height: 100vh;
+  height: 80vh;
   background-color: #F2F6E5;
 }
 
 .nav_custom {
+  background: transparent;
   background-color: #646665;
 }
 
@@ -69,9 +70,9 @@ footer a {
   color: #C4EB36;
 }
 
-.navbar .nav-link {
+.navbar-dark .navbar-nav .nav-link {
   font-size: 2rem;
-  color: #1F1F1F;
+  color: #C4EB36;
 }
 
 .intro {
@@ -83,6 +84,20 @@ footer a {
 .about {
   font-size: 45px;
   color: #C4EB36;
+  padding-top: 5%;
+}
+
+.lead {
+  color: #1F1F1F;
+  font-weight: 400;
+  padding-top: 5%;
+  text-align: justify;
+}
+
+.pics_me {
+  width: 8rem;
+  height: 17rem;
+  background-color: #F2F6E5;
   padding-top: 5%;
 }
 
