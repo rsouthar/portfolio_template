@@ -2,6 +2,13 @@ body {
   background-color: #F2F6E5;
 }
 
+p {
+  color: #1F1F1F;
+  font-weight: 400;
+  padding-top: 5%;
+  text-align: justify;
+}
+
 footer {
   background-color: #646665;
   height: 100px;
@@ -87,13 +94,6 @@ footer a {
   padding-top: 5%;
 }
 
-.lead {
-  color: #1F1F1F;
-  font-weight: 400;
-  padding-top: 5%;
-  text-align: justify;
-}
-
 .pics_me {
   width: 8rem;
   height: 17rem;
@@ -105,4 +105,13 @@ footer a {
   font-size: 45px;
   color: #1F1F1F;
   padding-top: 5%;
+}
+
+.skill_items {
+  padding-top: 1.5rem;
+}
+
+.bg-success {
+  padding-top: 1.5rem;
+  color: #646665;
 }
