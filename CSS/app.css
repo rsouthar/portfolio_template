@@ -1,9 +1,11 @@
 body {
   background-color: #F2F6E5;
 }
+
 p {
   color: #1F1F1F;
   font-weight: 400;
+  font-size: 1rem;
   padding-top: 5%;
   text-align: justify;
 }
@@ -28,17 +30,27 @@ footer a {
 }
 
 #hero {
-  height: 80vh;
+  height: 85vh;
   background-color: #F2F6E5;
 }
 
 #about {
-  height: 80vh;
+  height: 85vh;
   background-color: #646665;
 }
 
 #skills {
-  height: 80vh;
+  height: 85vh;
+  background-color: #F2F6E5;
+}
+
+#work {
+  height: 85vh;
+  background-color: #646665;
+}
+
+#find {
+  height: 85vh;
   background-color: #F2F6E5;
 }
 
@@ -90,14 +102,14 @@ footer a {
 .about {
   font-size: 45px;
   color: #C4EB36;
-  padding-top: 5%;
+  padding: 4% 0;
 }
 
 .pics_me {
   width: 8rem;
   height: 17rem;
   background-color: #F2F6E5;
-  padding-top: 5%;
+  margin-top: 20px;
 }
 
 .skills {
@@ -110,7 +122,20 @@ footer a {
   padding-top: 1.5rem;
 }
 
-.bg-success {
+.skill_items .progress .progress-bar {
   padding-top: 1.5rem;
   color: #646665;
+}
+
+.works {
+  font-size: 45px;
+  color: #C4EB36;
+  padding-top: 5%;
+}
+
+.my_work {
+  background-color: #F2F6E5;
+  width: 5rem;
+  height: 15rem;
+  margin: 0 1rem;
 }
