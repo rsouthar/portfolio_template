@@ -139,3 +139,20 @@ footer a {
   height: 15rem;
   margin: 0 1rem;
 }
+
+.finds {
+  font-size: 45px;
+  color: #1F1F1F;
+  padding-top: 5%;
+}
+
+.finds .find_pic {
+  background-color: #646665;
+  width: 5rem;
+  height: 6rem;
+  margin-top: 1rem;
+}
+
+.map {
+  background-color: # #646665;
+}
