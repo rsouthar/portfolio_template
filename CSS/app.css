@@ -6,15 +6,15 @@ p {
   color: #1F1F1F;
   font-weight: 400;
   font-size: 1rem;
-  padding-top: 5%;
   text-align: justify;
 }
 
 footer {
   background-color: #646665;
-  height: 100px;
+  height: 70px;
   font-size: 20px;
   color: #C4EB36;
+  padding-top: 20px;
 }
 
 footer a {
@@ -35,22 +35,18 @@ footer a {
 }
 
 #about {
-  height: 85vh;
   background-color: #646665;
 }
 
 #skills {
-  height: 85vh;
   background-color: #F2F6E5;
 }
 
 #work {
-  height: 85vh;
   background-color: #646665;
 }
 
 #find {
-  height: 85vh;
   background-color: #F2F6E5;
 }
 
@@ -115,7 +111,7 @@ footer a {
 .skills {
   font-size: 45px;
   color: #1F1F1F;
-  padding-top: 5%;
+  padding: 4% 0;
 }
 
 .skill_items {
@@ -130,7 +126,7 @@ footer a {
 .works {
   font-size: 45px;
   color: #C4EB36;
-  padding-top: 5%;
+  padding: 4% 0;
 }
 
 .my_work {
@@ -146,13 +142,8 @@ footer a {
   padding-top: 5%;
 }
 
-.finds .find_pic {
+.find_pic {
   background-color: #646665;
   width: 5rem;
-  height: 6rem;
-  margin-top: 1rem;
-}
-
-.map {
-  background-color: # #646665;
+  height: 13rem;
 }
