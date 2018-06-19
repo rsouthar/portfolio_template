@@ -105,7 +105,7 @@ footer a {
   width: 8rem;
   height: 17rem;
   background-color: #F2F6E5;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .skills {
@@ -114,13 +114,9 @@ footer a {
   padding: 4% 0;
 }
 
-.skill_items {
+.progress-bar.skill_set.bg-success {
   padding-top: 1.5rem;
-}
-
-.skill_items .progress .progress-bar {
-  padding-top: 1.5rem;
-  color: #646665;
+  background-color: #646665;
 }
 
 .works {
@@ -140,6 +136,7 @@ footer a {
   font-size: 45px;
   color: #1F1F1F;
   padding-top: 5%;
+  margin-bottom: 1rem;
 }
 
 .find_pic {
