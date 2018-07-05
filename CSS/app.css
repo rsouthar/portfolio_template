@@ -144,3 +144,13 @@ footer a {
   width: 5rem;
   height: 13rem;
 }
+
+@media screen and (max-width: 1024px) {
+  .about span {
+    font-size: 60px;
+  }
+
+  .about p {
+    font-size: 35px;
+  }
+}
