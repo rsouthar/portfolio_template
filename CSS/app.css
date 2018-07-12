@@ -96,7 +96,7 @@ footer a {
 }
 
 .about {
-  font-size: 45px;
+  font-size: 6vw;
   color: #C4EB36;
   padding: 4% 0;
 }
@@ -109,7 +109,7 @@ footer a {
 }
 
 .skills {
-  font-size: 45px;
+  font-size: 6vw;
   color: #1F1F1F;
   padding: 4% 0;
 }
@@ -120,7 +120,7 @@ footer a {
 }
 
 .works {
-  font-size: 45px;
+  font-size: 6vw;
   color: #C4EB36;
   padding: 4% 0;
 }
@@ -133,7 +133,7 @@ footer a {
 }
 
 .finds {
-  font-size: 45px;
+  font-size: 6vw;
   color: #1F1F1F;
   padding-top: 5%;
   margin-bottom: 1rem;
@@ -146,11 +146,15 @@ footer a {
 }
 
 @media screen and (max-width: 1024px) {
-  .about span {
-    font-size: 60px;
+  .about p {
+    font-size: 3.5vw;
   }
 
-  .about p {
-    font-size: 35px;
+  .skill_text p {
+    font-size: 3.5vw;
+  }
+
+  .works p {
+    font-size: 3.5vw;
   }
 }
