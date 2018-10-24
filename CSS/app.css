@@ -35,7 +35,7 @@ footer a {
 }
 
 #about {
-  background-color: #646665;
+  background-color: #F2F6E5;
 }
 
 #skills {
@@ -43,7 +43,7 @@ footer a {
 }
 
 #work {
-  background-color: #646665;
+  background-color: #F2F6E5;
 }
 
 #find {
@@ -53,6 +53,7 @@ footer a {
 .nav_custom {
   background: transparent;
   background-color: #646665;
+  padding: 0 16px;
 }
 
 .icon-bar {
@@ -80,7 +81,7 @@ footer a {
 }
 
 .navbar .navbar-brand {
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: #C4EB36;
 }
 
@@ -96,7 +97,7 @@ footer a {
 }
 
 .about {
-  font-size: 6vw;
+  font-size: 5.5vw;
   color: #C4EB36;
   padding: 4% 0;
 }
@@ -104,12 +105,12 @@ footer a {
 .pics_me {
   width: 8rem;
   height: 17rem;
-  background-color: #F2F6E5;
+  background-color: #646665;
   margin-top: 5px;
 }
 
 .skills {
-  font-size: 6vw;
+  font-size: 5.5vw;
   color: #1F1F1F;
   padding: 4% 0;
 }
@@ -120,20 +121,20 @@ footer a {
 }
 
 .works {
-  font-size: 6vw;
+  font-size: 5.5vw;
   color: #C4EB36;
   padding: 4% 0;
 }
 
 .my_work {
-  background-color: #F2F6E5;
+  background-color: #646665;
   width: 5rem;
   height: 15rem;
   margin: 0 1rem;
 }
 
 .finds {
-  font-size: 6vw;
+  font-size: 5.5vw;
   color: #1F1F1F;
   padding-top: 5%;
   margin-bottom: 1rem;
@@ -158,3 +159,5 @@ footer a {
     font-size: 3.5vw;
   }
 }
+
+/*# sourceMappingURL=app.css.map */
