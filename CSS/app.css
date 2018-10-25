@@ -5,7 +5,7 @@ body {
 p {
   color: #1F1F1F;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.5vw;
   text-align: justify;
 }
 
@@ -98,8 +98,8 @@ footer a {
 
 .about {
   font-size: 5.5vw;
-  color: #C4EB36;
-  padding: 4% 0;
+  color: #1F1F1F;
+  padding: 5% 0;
 }
 
 .pics_me {
@@ -112,7 +112,7 @@ footer a {
 .skills {
   font-size: 5.5vw;
   color: #1F1F1F;
-  padding: 4% 0;
+  padding: 5% 0;
 }
 
 .progress-bar.skill_set.bg-success {
@@ -122,8 +122,8 @@ footer a {
 
 .works {
   font-size: 5.5vw;
-  color: #C4EB36;
-  padding: 4% 0;
+  color: #1F1F1F;
+  padding: 5% 0;
 }
 
 .my_work {
@@ -136,7 +136,7 @@ footer a {
 .finds {
   font-size: 5.5vw;
   color: #1F1F1F;
-  padding-top: 5%;
+  padding: 5% 0;
   margin-bottom: 1rem;
 }
 
@@ -148,15 +148,15 @@ footer a {
 
 @media screen and (max-width: 1024px) {
   .about p {
-    font-size: 3.5vw;
+    font-size: 2vw;
   }
 
   .skill_text p {
-    font-size: 3.5vw;
+    font-size: 2vw;
   }
 
   .works p {
-    font-size: 3.5vw;
+    font-size: 2vw;
   }
 }
 
