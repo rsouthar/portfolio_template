@@ -31,6 +31,9 @@ footer a {
 
 #hero {
   height: 85vh;
+  background: url("https://www.richardsouthard.com/pics/image/main-min.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: #F2F6E5;
 }
 
@@ -92,8 +95,8 @@ footer a {
 
 .intro {
   font-size: 50px;
-  color: #1F1F1F;
-  margin-top: 25%;
+  color: #eee;
+  padding-top: 25%;
 }
 
 .about {
