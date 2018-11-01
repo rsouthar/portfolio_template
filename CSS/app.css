@@ -5,7 +5,7 @@ body {
 p {
   color: #1F1F1F;
   font-weight: 400;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   text-align: justify;
 }
 
@@ -30,7 +30,7 @@ footer a {
 }
 
 #hero {
-  height: 85vh;
+  height: 95vh;
   background: url("https://www.richardsouthard.com/pics/image/main-min.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -56,7 +56,7 @@ footer a {
 .nav_custom {
   background: transparent;
   background-color: #646665;
-  padding: 0 16px;
+  padding: 0 20px;
 }
 
 .icon-bar {
@@ -100,22 +100,26 @@ footer a {
 }
 
 .about {
-  font-size: 5.5vw;
+  font-size: 5.1vw;
   color: #1F1F1F;
   padding: 5% 0;
 }
 
 .pics_me {
   width: 8rem;
-  height: 17rem;
+  height: auto;
   background-color: #646665;
   margin-top: 5px;
 }
 
 .skills {
-  font-size: 5.5vw;
+  font-size: 5.1vw;
   color: #1F1F1F;
   padding: 5% 0;
+}
+
+.skill_items {
+  height: auto;
 }
 
 .progress-bar.skill_set.bg-success {
@@ -124,7 +128,7 @@ footer a {
 }
 
 .works {
-  font-size: 5.5vw;
+  font-size: 5.1vw;
   color: #1F1F1F;
   padding: 5% 0;
 }
@@ -137,7 +141,7 @@ footer a {
 }
 
 .finds {
-  font-size: 5.5vw;
+  font-size: 5.1vw;
   color: #1F1F1F;
   padding: 5% 0;
   margin-bottom: 1rem;
@@ -146,7 +150,7 @@ footer a {
 .find_pic {
   background-color: #646665;
   width: 5rem;
-  height: 13rem;
+  height: auto;
 }
 
 @media screen and (max-width: 1024px) {
