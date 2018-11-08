@@ -29,8 +29,8 @@ footer a {
   text-align: center;
 }
 
-#hero {
-  height: 95vh;
+#welcome-section {
+  height: 100vh;
   background: url("https://www.richardsouthard.com/pics/image/main-min.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -56,7 +56,7 @@ footer a {
 .nav_custom {
   background: transparent;
   background-color: #fff;
-  padding: 0 20px;
+  padding: 0 1rem;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -89,19 +89,32 @@ footer a {
   color: #b31c27;
 }
 
+.navbar .navbar-brand:hover {
+  color: #e59500;
+}
+
 .navbar-dark .navbar-nav .nav-link {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #525349;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #5d8f3f;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 4.5rem;
+  padding-left: 4.5rem;
 }
 
 .intro {
   font-size: 50px;
-  color: #525349;
+  color: #fff;
   padding-top: 25%;
 }
 
 .about {
-  font-size: 5.1vw;
+  font-size: 3.5vw;
   color: #525349;
   padding: 5% 0;
 }
@@ -114,7 +127,7 @@ footer a {
 }
 
 .skills {
-  font-size: 5.1vw;
+  font-size: 3.5vw;
   color: #525349;
   padding: 5% 0;
 }
@@ -129,20 +142,20 @@ footer a {
 }
 
 .works {
-  font-size: 5.1vw;
+  font-size: 3.5vw;
   color: #525349;
   padding: 5% 0;
 }
 
-.my_work {
+.my_work img {
   background-color: #525349;
-  width: 5rem;
-  height: 15rem;
-  margin: 0 1rem;
+  width: 19.5rem;
+  height: auto;
+  margin: 0 0.5rem;
 }
 
 .finds {
-  font-size: 5.1vw;
+  font-size: 3.5vw;
   color: #525349;
   padding: 5% 0;
   margin-bottom: 1rem;
