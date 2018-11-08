@@ -1,7 +1,7 @@
 .nav_custom
   background: transparent
   background-color: $nav-color
-  padding: 0 20px
+  padding: 0 1rem
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2)
 
 .icon-bar
@@ -26,13 +26,23 @@
   font-size: 3.5rem
   color: $brand-color
 
+.navbar .navbar-brand:hover
+  color: $orange-color
+
 .navbar-dark .navbar-nav .nav-link
-  font-size: 2rem
+  font-size: 1.5rem
   color: $header-color
+
+.navbar-dark .navbar-nav .nav-link:hover
+  color: $green-color
+
+.navbar-expand-lg .navbar-nav .nav-link
+  padding-right: 4.5rem
+  padding-left: 4.5rem
 
 .intro
   font-size: 50px
-  color: $text-color
+  color: $text-color-2
   padding-top: 25%
 
 .about
@@ -64,11 +74,11 @@
   color: $header-color
   padding: $section-padding
 
-.my_work
+.my_work img
   background-color: $footer-color
-  width: 5rem
-  height: 15rem
-  margin: 0 1rem
+  width: 19.5rem
+  height: auto
+  margin: 0 .5rem
 
 .finds
   font-size: $header-text-size
