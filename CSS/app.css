@@ -38,6 +38,7 @@ footer a {
 }
 
 #about {
+  height: 100vh;
   background-color: #fff;
 }
 
@@ -116,11 +117,15 @@ footer a {
 .about {
   font-size: 3.5vw;
   color: #525349;
-  padding: 5% 0;
+  padding: 10% 0;
 }
 
-.pics_me {
-  width: 8rem;
+.about_me {
+  color: #e59500;
+}
+
+.pics_me img {
+  width: 40rem;
   height: auto;
   background-color: #525349;
   margin-top: 5px;
@@ -129,7 +134,7 @@ footer a {
 .skills {
   font-size: 3.5vw;
   color: #525349;
-  padding: 5% 0;
+  padding: 10% 0;
 }
 
 .skill_items {
@@ -144,7 +149,7 @@ footer a {
 .works {
   font-size: 3.5vw;
   color: #525349;
-  padding: 5% 0;
+  padding: 10% 0;
 }
 
 .my_work img {
@@ -157,7 +162,7 @@ footer a {
 .finds {
   font-size: 3.5vw;
   color: #525349;
-  padding: 5% 0;
+  padding: 10% 0;
   margin-bottom: 1rem;
 }
 
