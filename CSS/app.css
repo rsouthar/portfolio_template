@@ -38,7 +38,6 @@ footer a {
 }
 
 #about {
-  height: 100vh;
   background-color: #fff;
 }
 
@@ -141,9 +140,9 @@ footer a {
   height: auto;
 }
 
-.progress-bar.skill_set.bg-success {
+#skills .bg-success {
   padding-top: 1.5rem;
-  background-color: #525349;
+  background-color: #525349 !important;
 }
 
 .works {
