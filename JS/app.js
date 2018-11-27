@@ -1,7 +1,7 @@
 // javascript for scrollreveal
 window.port = ScrollReveal({ reset: false});
 port.reveal('.para1', {
-  origin: 'right',
+  origin: 'bottom',
   distance: '100px',
   duration: 500,
   viewFactor: 0.6,
@@ -9,15 +9,15 @@ port.reveal('.para1', {
 });
 
 port.reveal('.para2', {
-  origin: 'left',
+  origin: 'bottom',
   duration: 500,
   viewFactor: 0.6,
   delay: 200
 });
 
 port.reveal('.pics_me', {
-  origin: 'top',
+  origin: 'bottom',
   duration: 500,
   viewFactor: 0.6,
-  delay: 250
+  delay: 200
 });
