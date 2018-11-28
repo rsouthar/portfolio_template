@@ -64,9 +64,12 @@
   color: $header-color
   padding: $section-padding
 
-.skill_items
-  height: auto
+.skill_text
+  padding-left: 0
 
+.progress
+  height: auto
+  margin-bottom: 2rem
 
 #skills .bg-success
   padding-top: 1.5rem
@@ -79,9 +82,17 @@
 
 .my_work img
   background-color: $footer-color
-  width: 19.5rem
+  width: 100%
   height: auto
-  margin: 0 .5rem
+
+.my_work h2
+  font-size: $paragraph-text-size
+
+.my_work:first-child
+  padding-left: 0
+
+.my_work:last-child
+  padding-right: 0
 
 .finds
   font-size: $header-text-size
