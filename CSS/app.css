@@ -136,6 +136,10 @@ footer a {
   padding: 10% 0;
 }
 
+.skills span {
+  color: #e59500;
+}
+
 .skill_text {
   padding-left: 0;
 }
@@ -156,10 +160,15 @@ footer a {
   padding: 10% 0;
 }
 
+.works span {
+  color: #e59500;
+}
+
 .my_work img {
   background-color: #525349;
   width: 100%;
   height: auto;
+  margin-top: 2.5rem;
 }
 
 .my_work h2 {
@@ -181,10 +190,20 @@ footer a {
   margin-bottom: 1rem;
 }
 
-.find_pic {
+.finds span {
+  color: #e59500;
+}
+
+.find_pic img {
   background-color: #525349;
-  width: 5rem;
+  width: 80%;
   height: auto;
+}
+
+.social h3 {
+  padding-top: 1.5rem;
+  color: #525349;
+  text-align: center;
 }
 
 @media screen and (max-width: 1024px) {
