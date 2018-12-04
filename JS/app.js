@@ -2,7 +2,6 @@
 window.port = ScrollReveal({ reset: false});
 port.reveal('.para1', {
   origin: 'bottom',
-  distance: '100px',
   duration: 500,
   viewFactor: 0.6,
   delay: 150
