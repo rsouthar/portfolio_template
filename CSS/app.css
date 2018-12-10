@@ -9,6 +9,10 @@ p {
   text-align: justify;
 }
 
+a {
+  color: #988f7a;
+}
+
 footer {
   background-color: #525349;
   height: 70px;
@@ -164,22 +168,22 @@ footer a {
   color: #e59500;
 }
 
-.my_work img {
+.project-title img {
   background-color: #525349;
   width: 100%;
   height: auto;
   margin-top: 2.5rem;
 }
 
-.my_work h2 {
+.project-title h2 {
   font-size: 1.2vw;
 }
 
-.my_work:first-child {
+.project-title:first-child {
   padding-left: 0;
 }
 
-.my_work:last-child {
+.project-title:last-child {
   padding-right: 0;
 }
 
