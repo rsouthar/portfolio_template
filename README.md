@@ -1,2 +1,2 @@
-# portfolio_template
+# Portfolio Template
 Personal Portfolio Webpage for FreeCodeCamp.org
